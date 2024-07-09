@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ellty-raashi-ta-1/static/css/main.3c8b8d21.css",
+    "main.js": "/ellty-raashi-ta-1/static/js/main.616ef08a.js",
+    "index.html": "/ellty-raashi-ta-1/index.html",
+    "main.3c8b8d21.css.map": "/ellty-raashi-ta-1/static/css/main.3c8b8d21.css.map",
+    "main.616ef08a.js.map": "/ellty-raashi-ta-1/static/js/main.616ef08a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c8b8d21.css",
+    "static/js/main.616ef08a.js"
+  ]
+}
