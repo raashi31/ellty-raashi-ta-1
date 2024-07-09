@@ -1,0 +1,90 @@
+.modal {
+    width: 37rem;
+    height: 32.6rem;
+    margin-top: 8.5rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    border: 0.1rem solid #EEEEEE;
+    box-shadow: 0 0.8rem 1.5rem 0 rgba(20, 20, 20, 0.12), 0 0 0.4rem 0 rgba(20, 20, 20, 0.1);
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1.5rem 0.8rem 2.2rem;
+}
+
+.checkbox-label{
+    font-family: "Montserrat";
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+input[type="checkbox"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 0.6rem;
+    border: 1px solid rgba(205, 205, 205, 1);
+    opacity: 60%;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:hover{
+    border: 1px solid rgba(189, 189, 189, 1);
+    opacity: 100%;
+}
+
+input[type="checkbox"]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f00c";
+    color: white;
+    font-size: 15px;
+    display: none;
+}
+
+input[type="checkbox"]:checked{
+    background-color: rgba(36, 105, 246, 1);
+    opacity: 100%;
+}
+
+input[type="checkbox"]:checked:hover{
+    background-color: rgba(80, 135, 248, 1);
+    opacity: 100%;
+}
+
+input[type="checkbox"]:checked:after{
+    display: block;
+}
+
+.horizontal-line {
+    width: 34rem;
+    height: 0;
+    margin: 1rem 1.5rem;
+    border-top: 0.7px solid rgba(205, 205, 205, 1);
+    opacity: 60%;
+}
+
+.done-button {
+    width: 34rem;
+    height: 4rem;
+    margin: 1rem 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    background-color: rgba(255, 206, 34, 1);
+    border: 0;
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.done-button:hover {
+    background-color: rgba(255, 216, 77, 1);
+}
